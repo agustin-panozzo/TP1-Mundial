@@ -294,7 +294,7 @@ build CMakeFiles/TP1.dir/src/main.cpp.obj: CXX_COMPILER__TP1_unscanned_Debug C$:
 
 build TP1.exe: CXX_EXECUTABLE_LINKER__TP1_Debug CMakeFiles/TP1.dir/src/main.cpp.obj | liblib.a || liblib.a
   FLAGS = -g
-  LINK_LIBRARIES = liblib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = liblib.a  -Wall  -Werror  -Wconversion  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TP1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

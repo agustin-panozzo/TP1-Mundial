@@ -14,3 +14,4 @@ target_include_directories(lib PUBLIC /library)
 
 add_executable(TP1 src/main.cpp)
 target_link_libraries(TP1 PUBLIC lib)
+target_link_libraries(TP1 PUBLIC -Wall -Werror -Wconversion)
