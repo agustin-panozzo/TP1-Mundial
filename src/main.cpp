@@ -1,5 +1,5 @@
-#include "library/archivos.h"
-#include "library/menu.h"
+#include "../library/archivos.h"
+#include "../library/menu.h"
 
 using namespace std;
 

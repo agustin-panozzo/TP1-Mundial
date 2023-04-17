@@ -217,40 +217,40 @@ build ContinuousSubmit: phony CMakeFiles/ContinuousSubmit
 
 build cmake_object_order_depends_target_lib: phony || CMakeFiles/lib.dir
 
-build CMakeFiles/lib.dir/archivos.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/archivos.cpp || cmake_object_order_depends_target_lib
-  DEP_FILE = CMakeFiles\lib.dir\archivos.cpp.obj.d
+build CMakeFiles/lib.dir/src/archivos.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/src/archivos.cpp || cmake_object_order_depends_target_lib
+  DEP_FILE = CMakeFiles\lib.dir\src\archivos.cpp.obj.d
   FLAGS = -g
   INCLUDES = -I/library
   OBJECT_DIR = CMakeFiles\lib.dir
-  OBJECT_FILE_DIR = CMakeFiles\lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\lib.dir\src
 
-build CMakeFiles/lib.dir/funcionesAuxiliares.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/funcionesAuxiliares.cpp || cmake_object_order_depends_target_lib
-  DEP_FILE = CMakeFiles\lib.dir\funcionesAuxiliares.cpp.obj.d
+build CMakeFiles/lib.dir/src/funcionesAuxiliares.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/src/funcionesAuxiliares.cpp || cmake_object_order_depends_target_lib
+  DEP_FILE = CMakeFiles\lib.dir\src\funcionesAuxiliares.cpp.obj.d
   FLAGS = -g
   INCLUDES = -I/library
   OBJECT_DIR = CMakeFiles\lib.dir
-  OBJECT_FILE_DIR = CMakeFiles\lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\lib.dir\src
 
-build CMakeFiles/lib.dir/funcionesEquipos.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/funcionesEquipos.cpp || cmake_object_order_depends_target_lib
-  DEP_FILE = CMakeFiles\lib.dir\funcionesEquipos.cpp.obj.d
+build CMakeFiles/lib.dir/src/funcionesEquipos.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/src/funcionesEquipos.cpp || cmake_object_order_depends_target_lib
+  DEP_FILE = CMakeFiles\lib.dir\src\funcionesEquipos.cpp.obj.d
   FLAGS = -g
   INCLUDES = -I/library
   OBJECT_DIR = CMakeFiles\lib.dir
-  OBJECT_FILE_DIR = CMakeFiles\lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\lib.dir\src
 
-build CMakeFiles/lib.dir/manejoMemoria.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/manejoMemoria.cpp || cmake_object_order_depends_target_lib
-  DEP_FILE = CMakeFiles\lib.dir\manejoMemoria.cpp.obj.d
+build CMakeFiles/lib.dir/src/manejoMemoria.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/src/manejoMemoria.cpp || cmake_object_order_depends_target_lib
+  DEP_FILE = CMakeFiles\lib.dir\src\manejoMemoria.cpp.obj.d
   FLAGS = -g
   INCLUDES = -I/library
   OBJECT_DIR = CMakeFiles\lib.dir
-  OBJECT_FILE_DIR = CMakeFiles\lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\lib.dir\src
 
-build CMakeFiles/lib.dir/menu.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/menu.cpp || cmake_object_order_depends_target_lib
-  DEP_FILE = CMakeFiles\lib.dir\menu.cpp.obj.d
+build CMakeFiles/lib.dir/src/menu.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/src/menu.cpp || cmake_object_order_depends_target_lib
+  DEP_FILE = CMakeFiles\lib.dir\src\menu.cpp.obj.d
   FLAGS = -g
   INCLUDES = -I/library
   OBJECT_DIR = CMakeFiles\lib.dir
-  OBJECT_FILE_DIR = CMakeFiles\lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\lib.dir\src
 
 
 # =============================================================================
@@ -260,7 +260,7 @@ build CMakeFiles/lib.dir/menu.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Use
 #############################################
 # Link the static library liblib.a
 
-build liblib.a: CXX_STATIC_LIBRARY_LINKER__lib_Debug CMakeFiles/lib.dir/archivos.cpp.obj CMakeFiles/lib.dir/funcionesAuxiliares.cpp.obj CMakeFiles/lib.dir/funcionesEquipos.cpp.obj CMakeFiles/lib.dir/manejoMemoria.cpp.obj CMakeFiles/lib.dir/menu.cpp.obj
+build liblib.a: CXX_STATIC_LIBRARY_LINKER__lib_Debug CMakeFiles/lib.dir/src/archivos.cpp.obj CMakeFiles/lib.dir/src/funcionesAuxiliares.cpp.obj CMakeFiles/lib.dir/src/funcionesEquipos.cpp.obj CMakeFiles/lib.dir/src/manejoMemoria.cpp.obj CMakeFiles/lib.dir/src/menu.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\lib.dir
   POST_BUILD = cd .
@@ -277,12 +277,12 @@ build liblib.a: CXX_STATIC_LIBRARY_LINKER__lib_Debug CMakeFiles/lib.dir/archivos
 
 build cmake_object_order_depends_target_TP1: phony || cmake_object_order_depends_target_lib
 
-build CMakeFiles/TP1.dir/main.cpp.obj: CXX_COMPILER__TP1_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/main.cpp || cmake_object_order_depends_target_TP1
-  DEP_FILE = CMakeFiles\TP1.dir\main.cpp.obj.d
+build CMakeFiles/TP1.dir/src/main.cpp.obj: CXX_COMPILER__TP1_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/src/main.cpp || cmake_object_order_depends_target_TP1
+  DEP_FILE = CMakeFiles\TP1.dir\src\main.cpp.obj.d
   FLAGS = -g
   INCLUDES = -I/library
   OBJECT_DIR = CMakeFiles\TP1.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP1.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP1.dir\src
 
 
 # =============================================================================
@@ -292,7 +292,7 @@ build CMakeFiles/TP1.dir/main.cpp.obj: CXX_COMPILER__TP1_unscanned_Debug C$:/Use
 #############################################
 # Link the executable TP1.exe
 
-build TP1.exe: CXX_EXECUTABLE_LINKER__TP1_Debug CMakeFiles/TP1.dir/main.cpp.obj | liblib.a || liblib.a
+build TP1.exe: CXX_EXECUTABLE_LINKER__TP1_Debug CMakeFiles/TP1.dir/src/main.cpp.obj | liblib.a || liblib.a
   FLAGS = -g
   LINK_LIBRARIES = liblib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TP1.dir

@@ -1,15 +1,17 @@
 # ninja log v5
 22	1494	7034133608565060	CMakeFiles/lib.dir/manejoMemoria.cpp.obj	7d1b3814be0e133c
-3	1515	7034133609007463	CMakeFiles/lib.dir/archivos.cpp.obj	c795cae358c1729d
-29	1541	7034133609087489	CMakeFiles/lib.dir/menu.cpp.obj	f44fb232dd96fd6d
-48	1543	7034133609210373	CMakeFiles/TP1.dir/main.cpp.obj	33e0f4a1b0b7ce8a
-10	1544	7034133609327585	CMakeFiles/lib.dir/funcionesAuxiliares.cpp.obj	a09c50391582eb27
-16	1565	7034133610061235	CMakeFiles/lib.dir/funcionesEquipos.cpp.obj	a4b6e493f8dcdc10
-1565	2196	7034133616364135	liblib.a	944b8b2c8a59d9cd
-2196	2410	7034133618468554	TP1.exe	d853b79938f754
-40	1158	7034134846291694	CMakeFiles/TP1.dir/main.cpp.obj	33e0f4a1b0b7ce8a
-31	1197	7034134846422551	CMakeFiles/lib.dir/menu.cpp.obj	f44fb232dd96fd6d
 21	1225	7034134846783415	CMakeFiles/lib.dir/archivos.cpp.obj	c795cae358c1729d
+31	1197	7034134846422551	CMakeFiles/lib.dir/menu.cpp.obj	f44fb232dd96fd6d
+40	1158	7034134846291694	CMakeFiles/TP1.dir/main.cpp.obj	33e0f4a1b0b7ce8a
+10	1544	7034133609327585	CMakeFiles/lib.dir/funcionesAuxiliares.cpp.obj	a09c50391582eb27
 26	1272	7034134847488731	CMakeFiles/lib.dir/funcionesEquipos.cpp.obj	a4b6e493f8dcdc10
-1272	1504	7034134849772971	liblib.a	944b8b2c8a59d9cd
 1504	1683	7034134851485556	TP1.exe	d853b79938f754
+1272	1504	7034134849772971	liblib.a	944b8b2c8a59d9cd
+7	801	7034139375639995	CMakeFiles/lib.dir/src/archivos.cpp.obj	6d3cc8bf135a4c12
+55	1447	7034139822093336	CMakeFiles/lib.dir/src/funcionesAuxiliares.cpp.obj	317b4f529f538748
+94	1455	7034139822164966	CMakeFiles/lib.dir/src/menu.cpp.obj	2ec06149173e104
+61	1527	7034139822468263	CMakeFiles/lib.dir/src/funcionesEquipos.cpp.obj	8eedce522b68ca45
+75	1609	7034139824574170	CMakeFiles/lib.dir/src/manejoMemoria.cpp.obj	7bc1272004499b4e
+103	1684	7034139824961793	CMakeFiles/TP1.dir/src/main.cpp.obj	cdaac02471ec767f
+1609	1900	7034139827458214	liblib.a	4fac7b8ed41fa504
+1901	2112	7034139829535662	TP1.exe	b269e73b386740

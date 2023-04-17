@@ -1,4 +1,4 @@
-#include "library/funcionesAuxiliares.h"
+#include "../library/funcionesAuxiliares.h"
 
 using namespace std;
 
