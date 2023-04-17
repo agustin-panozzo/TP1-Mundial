@@ -4,8 +4,8 @@
 #include <iostream>
 
 const size_t TAMANIO = 1;
-const std::string ARCHIVO_EQUIPOS = "equipos.txt"; 
-const std::string ARCHIVO_RESULTADOS = "resultados.csv";
+const std::string ARCHIVO_EQUIPOS = "../equipos.txt"; 
+const std::string ARCHIVO_RESULTADOS = "../resultados.csv";
 
 enum FASES {GRUPOS, OCTAVOS, CUARTOS, SEMIFINALES, FINAL, POR_TERCER_PUESTO};
 enum RESULTADOS {NOMBRE_PAIS_1, GOLES_1, PENALES_1, NOMBRE_PAIS_2, GOLES_2, PENALES_2};

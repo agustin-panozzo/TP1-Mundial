@@ -1,4 +1,4 @@
-#include "manejoMemoria.h"
+#include "library/manejoMemoria.h"
 
 void liberar_memoria(Equipos* equipos){
     for(size_t i = 0; i < equipos->totalPaises; i++){

@@ -1,4 +1,4 @@
-#include "funcionesEquipos.h"
+#include "library/funcionesEquipos.h"
 
 using namespace std;
 
