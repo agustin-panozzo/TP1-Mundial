@@ -16,5 +16,6 @@ const int VICTORIA_POR_PENALES = 2;
 const int EMPATE = 1;
 const int DERROTA_POR_PENALES = 1;
 const int DERROTA = 0;
+const int TOTAL_FASES = 6;
 
 #endif // CONSTANTES_H

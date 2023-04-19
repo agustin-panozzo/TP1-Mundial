@@ -252,6 +252,13 @@ build CMakeFiles/lib.dir/src/menu.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:
   OBJECT_DIR = CMakeFiles\lib.dir
   OBJECT_FILE_DIR = CMakeFiles\lib.dir\src
 
+build CMakeFiles/lib.dir/src/funcionesGrupos.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:/Users/panoz/OneDrive/Escritorio/1er$ Cuatrimestre$ -$ 2023/Algo$ II/TPs/TP1/src/funcionesGrupos.cpp || cmake_object_order_depends_target_lib
+  DEP_FILE = CMakeFiles\lib.dir\src\funcionesGrupos.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -I/library
+  OBJECT_DIR = CMakeFiles\lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\lib.dir\src
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target lib
@@ -260,7 +267,7 @@ build CMakeFiles/lib.dir/src/menu.cpp.obj: CXX_COMPILER__lib_unscanned_Debug C$:
 #############################################
 # Link the static library liblib.a
 
-build liblib.a: CXX_STATIC_LIBRARY_LINKER__lib_Debug CMakeFiles/lib.dir/src/archivos.cpp.obj CMakeFiles/lib.dir/src/funcionesAuxiliares.cpp.obj CMakeFiles/lib.dir/src/funcionesEquipos.cpp.obj CMakeFiles/lib.dir/src/manejoMemoria.cpp.obj CMakeFiles/lib.dir/src/menu.cpp.obj
+build liblib.a: CXX_STATIC_LIBRARY_LINKER__lib_Debug CMakeFiles/lib.dir/src/archivos.cpp.obj CMakeFiles/lib.dir/src/funcionesAuxiliares.cpp.obj CMakeFiles/lib.dir/src/funcionesEquipos.cpp.obj CMakeFiles/lib.dir/src/manejoMemoria.cpp.obj CMakeFiles/lib.dir/src/menu.cpp.obj CMakeFiles/lib.dir/src/funcionesGrupos.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\lib.dir
   POST_BUILD = cd .

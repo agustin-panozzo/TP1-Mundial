@@ -1,5 +1,6 @@
 #include "../library/archivos.h"
 #include "../library/menu.h"
+#include "../library/funcionesEquipos.h"
 
 using namespace std;
 
@@ -28,7 +29,7 @@ int main(){
         
 
         case 4:
-            // CODIGO
+            mostrar_por_puntaje(equipos);
             break;
         }
 

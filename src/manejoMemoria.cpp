@@ -1,5 +1,7 @@
 #include "../library/manejoMemoria.h"
 
+using namespace std;
+
 void liberar_memoria(Equipos* equipos){
     for(size_t i = 0; i < equipos->totalPaises; i++){
         delete equipos->paises[i];

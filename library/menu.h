@@ -5,6 +5,7 @@
 #include <string>
 #include "equipos.h"
 #include "funcionesEquipos.h"
+#include "funcionesGrupos.h"
 
 /*
 Pre: -
@@ -30,6 +31,10 @@ Post: Imprime los paises con el titulo de campeon, subcampeon y tercer lugar jun
 */
 void mostrar_top3(Equipos* equipos);
 
+/*
+Pre: -
+Post: Muestra el puntaje de todos los paises por fase ordenados de forma descendente
+*/
 void mostrar_por_puntaje(Equipos* equipos);
 
 #endif // MENU_H

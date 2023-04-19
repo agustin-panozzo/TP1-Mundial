@@ -80,5 +80,4 @@ Pre: -
 Post: Devuelve un puntero a Struct Pais que coincida con el titulo recibido por parametro
 */
 Pais* buscar_por_titulo(Equipos* equipos, const int& titulo);
-
 #endif // FUNCIONES_EQUIPOS_H

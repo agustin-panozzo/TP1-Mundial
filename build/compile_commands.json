@@ -31,6 +31,12 @@
 },
 {
   "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\funcionesGrupos.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\funcionesGrupos.cpp\"",
+  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\funcionesGrupos.cpp",
+  "output": "CMakeFiles\\lib.dir\\src\\funcionesGrupos.cpp.obj"
+},
+{
+  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1/build",
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\TP1.dir\\src\\main.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\main.cpp\"",
   "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\main.cpp",
   "output": "CMakeFiles\\TP1.dir\\src\\main.cpp.obj"

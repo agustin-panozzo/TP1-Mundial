@@ -2,6 +2,7 @@
 #define MANEJO_MEMORIA_H
 
 #include "equipos.h"
+#include <iostream>
 
 /*
 Pre: Recibe un puntero a Struct Equipos creado en memoria dinámica
