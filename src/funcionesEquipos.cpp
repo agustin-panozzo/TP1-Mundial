@@ -232,3 +232,4 @@ Pais* buscar_por_titulo(Equipos* equipos, const int& titulo){
 
     return pais;
 }
+

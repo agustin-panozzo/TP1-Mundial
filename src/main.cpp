@@ -1,5 +1,6 @@
 #include "../library/archivos.h"
 #include "../library/menu.h"
+#include "../library/funcionesEquipos.h"
 
 using namespace std;
 

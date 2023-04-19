@@ -2,6 +2,7 @@
 #define MANEJO_MEMORIA_H
 
 #include "equipos.h"
+#include <iostream>
 
 /*
 Pre: Recibe un puntero a Struct Equipos creado en memoria dinámica
@@ -21,4 +22,5 @@ Post: Verifica la memoria del vector "paises" y solicita memoria en caso de ser 
 */
 void verificar_memoria(Equipos* equipos);
 
+void verificar_memoria(Equipos* equipos);
 #endif // MANEJO_MEMORIA_H

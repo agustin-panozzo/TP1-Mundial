@@ -1,5 +1,7 @@
 #include "../library/manejoMemoria.h"
 
+using namespace std;
+
 void liberar_memoria(Equipos* equipos){
     for(size_t i = 0; i < equipos->totalPaises; i++){
         delete equipos->paises[i];
@@ -20,6 +22,18 @@ void ampliar_vector_equipos(Equipos* equipos){
     delete[] equipos->paises;
     equipos->paises = vectorAmpliado;
     
+}
+
+void ampliar_vector_grupos(Grupos* grupos){
+    grupos->tamanio += 1;
+    string* vectorAmpliado = new string [grupos->tamanio];
+
+    for(size_t i = 0; i < grupos->totalGrupos; i++){
+        vectorAmpliado[i] = grupos->listaGrupos[i];
+    }
+
+    delete[] grupos->listaGrupos;
+    grupos->listaGrupos = vectorAmpliado;
 }
 
 void verificar_memoria(Equipos* equipos){
