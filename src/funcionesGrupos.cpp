@@ -65,6 +65,21 @@ void obtener_grupos(Equipos* equipos, Grupos* grupos){
     ordenar_grupos_alfabeticamente(grupos->listaGrupos, grupos->tamanio);
 }
 
+void insertar_pais_por_insercion(Pais** paisesPorGrupo, Pais* pais, size_t& indice){
+    size_t i = indice;
+
+    while (i > 0 && paisesPorGrupo[i - 1]->puntajes[0] < pais->puntajes[0]) {
+        paisesPorGrupo[i] = paisesPorGrupo[i - 1];
+        i--;
+    }
+
+    paisesPorGrupo[i] = pais;
+    indice++;
+}
+
+
+
+
 void mostrar_puntaje_por_grupos(Grupos* grupos, Equipos* equipos){
     for(size_t i = 0; i < grupos->totalGrupos; i++){
 
@@ -74,8 +89,7 @@ void mostrar_puntaje_por_grupos(Grupos* grupos, Equipos* equipos){
 
         for(size_t j = 0; j < equipos->totalPaises; j++){
             if(comparar_strings(grupos->listaGrupos[i], equipos->paises[j]->grupo)){
-                paisesPorGrupo[indice] = equipos->paises[j];
-                indice++;
+                insertar_pais_por_insercion(paisesPorGrupo, equipos->paises[j], indice);
             }
         }
 
