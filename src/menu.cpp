@@ -61,3 +61,17 @@ void mostrar_top3(Equipos* equipos){
     cout << endl;
 }
 
+void mostrar_por_puntaje(Equipos* equipos){
+    Grupos* grupos = new Grupos;
+    inicializar_grupos(grupos);
+    obtener_grupos(equipos, grupos);
+
+    mostrar_puntaje_por_grupos(grupos, equipos);
+    for(enum FASES i = OCTAVOS; i < TOTAL_FASES; i = FASES(i + 1)){
+        cout << "\nFASE " << fase_a_string(i) << endl;
+        mostrar_puntaje_general(equipos, i);
+        cout << endl;
+    }
+
+    delete grupos;
+}

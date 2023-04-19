@@ -1,7 +1,6 @@
 #include "../library/archivos.h"
 #include "../library/menu.h"
 #include "../library/funcionesEquipos.h"
-#include "../library/funcionesGrupos.h"
 
 using namespace std;
 
