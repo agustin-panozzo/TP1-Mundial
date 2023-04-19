@@ -9,6 +9,7 @@ src/funcionesAuxiliares.cpp
 src/funcionesEquipos.cpp
 src/manejoMemoria.cpp
 src/menu.cpp
+src/funcionesGrupos.cpp
 )
 target_include_directories(lib PUBLIC /library)
 

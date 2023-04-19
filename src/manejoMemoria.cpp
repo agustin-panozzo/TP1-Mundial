@@ -24,18 +24,6 @@ void ampliar_vector_equipos(Equipos* equipos){
     
 }
 
-void ampliar_vector_grupos(Grupos* grupos){
-    grupos->tamanio += 1;
-    string* vectorAmpliado = new string [grupos->tamanio];
-
-    for(size_t i = 0; i < grupos->totalGrupos; i++){
-        vectorAmpliado[i] = grupos->listaGrupos[i];
-    }
-
-    delete[] grupos->listaGrupos;
-    grupos->listaGrupos = vectorAmpliado;
-}
-
 void verificar_memoria(Equipos* equipos){
     if(equipos->totalPaises >= equipos->tamanio){
         ampliar_vector_equipos(equipos);

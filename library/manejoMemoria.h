@@ -22,5 +22,4 @@ Post: Verifica la memoria del vector "paises" y solicita memoria en caso de ser 
 */
 void verificar_memoria(Equipos* equipos);
 
-void verificar_memoria(Equipos* equipos);
 #endif // MANEJO_MEMORIA_H
