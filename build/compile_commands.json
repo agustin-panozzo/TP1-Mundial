@@ -1,44 +1,44 @@
 [
 {
-  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\archivos.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\archivos.cpp\"",
-  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\archivos.cpp",
+  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP2/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\archivos.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\archivos.cpp\"",
+  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\archivos.cpp",
   "output": "CMakeFiles\\lib.dir\\src\\archivos.cpp.obj"
 },
 {
-  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\funcionesAuxiliares.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\funcionesAuxiliares.cpp\"",
-  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\funcionesAuxiliares.cpp",
+  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP2/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\funcionesAuxiliares.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\funcionesAuxiliares.cpp\"",
+  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\funcionesAuxiliares.cpp",
   "output": "CMakeFiles\\lib.dir\\src\\funcionesAuxiliares.cpp.obj"
 },
 {
-  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\funcionesEquipos.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\funcionesEquipos.cpp\"",
-  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\funcionesEquipos.cpp",
+  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP2/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\funcionesEquipos.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\funcionesEquipos.cpp\"",
+  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\funcionesEquipos.cpp",
   "output": "CMakeFiles\\lib.dir\\src\\funcionesEquipos.cpp.obj"
 },
 {
-  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\manejoMemoria.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\manejoMemoria.cpp\"",
-  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\manejoMemoria.cpp",
+  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP2/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\manejoMemoria.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\manejoMemoria.cpp\"",
+  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\manejoMemoria.cpp",
   "output": "CMakeFiles\\lib.dir\\src\\manejoMemoria.cpp.obj"
 },
 {
-  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\menu.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\menu.cpp\"",
-  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\menu.cpp",
+  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP2/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\menu.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\menu.cpp\"",
+  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\menu.cpp",
   "output": "CMakeFiles\\lib.dir\\src\\menu.cpp.obj"
 },
 {
-  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\funcionesGrupos.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\funcionesGrupos.cpp\"",
-  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\funcionesGrupos.cpp",
+  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP2/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\lib.dir\\src\\funcionesGrupos.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\funcionesGrupos.cpp\"",
+  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\funcionesGrupos.cpp",
   "output": "CMakeFiles\\lib.dir\\src\\funcionesGrupos.cpp.obj"
 },
 {
-  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\TP1.dir\\src\\main.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\main.cpp\"",
-  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP1\\src\\main.cpp",
-  "output": "CMakeFiles\\TP1.dir\\src\\main.cpp.obj"
+  "directory": "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP2/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I/library -g -o CMakeFiles\\TP2.dir\\src\\main.cpp.obj -c \"C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\main.cpp\"",
+  "file": "C:\\Users\\panoz\\OneDrive\\Escritorio\\1er Cuatrimestre - 2023\\Algo II\\TPs\\TP2\\src\\main.cpp",
+  "output": "CMakeFiles\\TP2.dir\\src\\main.cpp.obj"
 }
 ]

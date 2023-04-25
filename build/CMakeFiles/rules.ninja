@@ -33,7 +33,7 @@ rule CXX_STATIC_LIBRARY_LINKER__lib_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__TP1_unscanned_Debug
+rule CXX_COMPILER__TP2_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = C:\msys64\mingw64\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -43,7 +43,7 @@ rule CXX_COMPILER__TP1_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__TP1_Debug
+rule CXX_EXECUTABLE_LINKER__TP2_Debug
   command = cmd.exe /C "$PRE_LINK && C:\msys64\mingw64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -61,7 +61,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\panoz\OneDrive\Escritorio\1er Cuatrimestre - 2023\Algo II\TPs\TP1" -B"C:\Users\panoz\OneDrive\Escritorio\1er Cuatrimestre - 2023\Algo II\TPs\TP1\build"
+  command = C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\panoz\OneDrive\Escritorio\1er Cuatrimestre - 2023\Algo II\TPs\TP2" -B"C:\Users\panoz\OneDrive\Escritorio\1er Cuatrimestre - 2023\Algo II\TPs\TP2\build"
   description = Re-running CMake...
   generator = 1
 

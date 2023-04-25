@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1
-BuildDirectory: C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1/build
+SourceDirectory: C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP2
+BuildDirectory: C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP2/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/msys64/mingw64/bin/cmake.exe" "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP1"
+ConfigureCommand: "C:/msys64/mingw64/bin/cmake.exe" "C:/Users/panoz/OneDrive/Escritorio/1er Cuatrimestre - 2023/Algo II/TPs/TP2"
 MakeCommand: C:\msys64\mingw64\bin\cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
